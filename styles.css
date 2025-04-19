@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "odin-font";
+  src: url("./fonts/Norse-Bold.otf") format("opentype");
+}
+
+.container {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  height: 50rem;
+}
+
+.left-side {
+  background: url("./img/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  width: 35%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  color: white;
+  margin-top: 10rem;
+  background-color: #05050583;
+  font-family: odin-font;
+  font-size: 3rem;
+}
+
+.logo img {
+  /* width: 10rem; */
+  height: 7rem;
+}
+
+.right-side {
+  background-color: #b7baca18;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.description {
+  height: 17rem;
+  padding: 6rem 4rem 0 2rem;
+  font-weight: bold;
+}
+
+.form-outer-container {
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.308);
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  font-weight: 500;
+}
+
+.form-column input {
+  width: 85%;
+  height: 1rem;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0.3rem;
+  border: 1px solid #e5e7eb;
+  font-weight: 500;
+}
+
+.form-column input:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.form-interaction {
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.form-interaction button {
+  background-color: #596d48;
+  width: 12rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.form-interaction a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
+}
+
+.form-interaction a:hover {
+  color: orange;
+}
+
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #596d48;
+  color: white;
+}
