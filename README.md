@@ -12,7 +12,7 @@ This project is part of [The Odin Project](https://www.theodinproject.com/) curr
 
 ## Overview
 
-The Odin Signup Form project is a simple yet functional signup form designed to practice form validation, layout techniques, and responsive design principles. The goal is to create a user-friendly interface that adheres to modern web standards.
+The Odin Signup Form project is a simple, yet functional signup form designed to practice form validation, layout techniques, and responsive design principles. The goal is to create a user-friendly interface that adheres to modern web standards.
 
 ## Features
 
