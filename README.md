@@ -8,6 +8,7 @@ This project is part of [The Odin Project](https://www.theodinproject.com/) curr
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
+- [Live Preview](#live-preview)
 
 ## Overview
 
@@ -34,6 +35,10 @@ The Odin Signup Form project is a simple yet functional signup form designed to 
    cd odin_signup_form
    ```
 3. Open `index.html` in your browser to view the project.
+
+## Live Preview
+
+Check out the live version of the project [here](https://emma-obelenge.github.io/odin_signup_form/).
 
 ---
 
