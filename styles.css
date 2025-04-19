@@ -25,6 +25,7 @@ html {
   background: url("./img/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
   width: 35%;
+  position: relative;
 }
 
 .logo {
@@ -42,6 +43,26 @@ html {
 .logo img {
   /* width: 10rem; */
   height: 7rem;
+}
+
+.citation {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.citation p,
+.citation a {
+  color: rgb(197, 197, 197);
+  transition: 0.3s;
+}
+
+.citation a:hover {
+  color: orange;
 }
 
 .right-side {
@@ -109,6 +130,12 @@ html {
   border-radius: 0.5rem;
   margin-bottom: 2rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.form-interaction button:hover {
+  background-color: orange;
+  cursor: pointer;
 }
 
 .form-interaction a {
@@ -137,4 +164,13 @@ input:focus {
   height: 3rem;
   background-color: #596d48;
   color: white;
+}
+
+.footer a {
+  color: white;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: orange;
 }
